@@ -1,6 +1,6 @@
 "SaveFile"
 {
-	"timestamp"		"2020-12-21 17:36:08"
+	"timestamp"		"2020-12-21 19:01:15"
 	"team1"		"Mamãe Fuma Tabaco"
 	"map"		"de_dust2"
 	"round"		"0"
@@ -50,7 +50,7 @@
 	}
 	"PlayersAliveT"
 	{
-		"round1"		"0"
+		"round1"		"4"
 		"round2"		"63"
 		"round3"		"63"
 		"round4"		"63"
@@ -83,7 +83,7 @@
 	}
 	"PlayersAliveCT"
 	{
-		"round1"		"1"
+		"round1"		"5"
 		"round2"		"63"
 		"round3"		"63"
 		"round4"		"63"

@@ -1,6 +1,6 @@
 "SaveFile"
 {
-	"timestamp"		"2020-12-21 17:38:25"
+	"timestamp"		"2020-12-21 18:03:10"
 	"team1"		"Mamãe Fuma Tabaco"
 	"map"		"de_dust2"
 	"round"		"1"
@@ -17,7 +17,7 @@
 	}
 	"RoundResults"
 	{
-		"round1"		"4"
+		"round1"		"1"
 		"round2"		"0"
 		"round3"		"0"
 		"round4"		"0"
@@ -83,7 +83,7 @@
 	}
 	"PlayersAliveCT"
 	{
-		"round1"		"1"
+		"round1"		"5"
 		"round2"		"63"
 		"round3"		"63"
 		"round4"		"63"
@@ -124,33 +124,41 @@
 		"159833010"
 		{
 			"name"		"Mooncake"
-			"kills"		"0"
+			"kills"		"5"
 			"assists"		"0"
 			"deaths"		"0"
-			"mvps"		"0"
-			"score"		"0"
-			"cash"		"4050"
-			"enemyKs"		"0"
-			"enemyHSs"		"0"
+			"mvps"		"1"
+			"score"		"10"
+			"cash"		"5550"
+			"enemyKs"		"5"
+			"enemyHSs"		"5"
 			"enemy2Ks"		"0"
 			"enemy3Ks"		"0"
 			"enemy4Ks"		"0"
-			"enemy5Ks"		"0"
-			"enemyKAg"		"0"
-			"enemyDamageDealt"		"0"
-			"firstKs"		"0"
+			"enemy5Ks"		"1"
+			"enemyKAg"		"5"
+			"enemyDamageDealt"		"454"
+			"firstKs"		"1"
 			"clutchKs"		"0"
-			"kills_weapon_pistol"		"0"
+			"kills_weapon_pistol"		"5"
 			"kills_weapon_sniper"		"0"
 			"roundsWon"		"1"
 			"helmet"		"0"
 			"Items"
 			{
-				"item"		"weapon_knife"
+				"item"		"weapon_knife_canis"
 				"item"		"weapon_usp_silencer"
 			}
 			"MatchStats"
 			{
+				"Kills"
+				{
+					"round1"		"5"
+				}
+				"Damage"
+				{
+					"round1"		"454"
+				}
 				"EquipmentValue"
 				{
 					"round1"		"200"
@@ -159,22 +167,30 @@
 				{
 					"round1"		"800"
 				}
+				"KillReward"
+				{
+					"round1"		"1500"
+				}
+				"HeadShotKills"
+				{
+					"round1"		"5"
+				}
 				"CashEarned"
 				{
-					"round1"		"4050"
+					"round1"		"5550"
 				}
 				"Totals"
 				{
-					"Kills"		"0"
-					"Damage"		"0"
+					"Kills"		"5"
+					"Damage"		"454"
 					"EquipmentValue"		"200"
-					"KillReward"		"0"
+					"KillReward"		"1500"
 					"LiveTime"		"0"
 					"Deaths"		"0"
 					"Assists"		"0"
-					"HeadshotKills"		"0"
+					"HeadshotKills"		"5"
 					"Objective"		"0"
-					"CashEarned"		"3250"
+					"CashEarned"		"4750"
 					"UtilityDamage"		"0"
 					"UtilityCount"		"0"
 					"UtilitySuccesses"		"0"
@@ -186,8 +202,8 @@
 					"1v1Wins"		"0"
 					"1v2Count"		"0"
 					"1v2Wins"		"0"
-					"EntryCount"		"0"
-					"EntryWins"		"0"
+					"EntryCount"		"1"
+					"EntryWins"		"1"
 				}
 			}
 			"ItemCooldown"

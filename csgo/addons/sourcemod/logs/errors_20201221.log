@@ -13,3 +13,74 @@ L 12/21/2020 - 17:49:54: [SM] Unable to load extension "PTaH.ext": The specified
 
 L 12/21/2020 - 17:49:54: [SM] Unable to load plugin "weapons.smx": Required extension "PTaH" file("PTaH.ext") not running
 L 12/21/2020 - 17:50:09: Error log file session closed.
+L 12/21/2020 - 18:58:59: SourceMod error session started
+L 12/21/2020 - 18:58:59: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 18:58:59: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:05: Error log file session closed.
+L 12/21/2020 - 18:59:09: SourceMod error session started
+L 12/21/2020 - 18:59:09: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 18:59:09: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:14: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:20: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:25: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:30: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:35: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 12/21/2020 - 18:59:35: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 18:59:35: [SM] Call stack trace:
+L 12/21/2020 - 18:59:35: [SM]   [0] Database.Query
+L 12/21/2020 - 18:59:35: [SM]   [1] Line 69, quasemago/csgo_weaponstickers/database.inc::UpdateClientData
+L 12/21/2020 - 18:59:35: [SM]   [2] Line 392, quasemago/csgo_weaponstickers/menus.inc::MenuHandler_Menu_StickerSet
+L 12/21/2020 - 18:59:40: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:45: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:50: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 18:59:55: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:00: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:05: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:10: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:15: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:21: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:26: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:31: [SM] Exception reported: Native is not bound
+L 12/21/2020 - 19:00:31: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 19:00:31: [SM] Call stack trace:
+L 12/21/2020 - 19:00:31: [SM]   [0] MemoryBlock.MemoryBlock
+L 12/21/2020 - 19:00:31: [SM]   [1] Line 164, quasemago/csgo_weaponstickers/helpers.inc::SetAttributeValue
+L 12/21/2020 - 19:00:31: [SM]   [2] Line 270, csgo_weaponstickers.sp::SetWeaponSticker
+L 12/21/2020 - 19:00:31: [SM]   [3] Line 228, csgo_weaponstickers.sp::OnGiveNamedItemPost
+L 12/21/2020 - 19:00:31: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:36: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:41: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 12/21/2020 - 19:00:46: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 19:00:46: [SM] Call stack trace:
+L 12/21/2020 - 19:00:46: [SM]   [0] Database.Query
+L 12/21/2020 - 19:00:46: [SM]   [1] Line 69, quasemago/csgo_weaponstickers/database.inc::UpdateClientData
+L 12/21/2020 - 19:00:46: [SM]   [2] Line 392, quasemago/csgo_weaponstickers/menus.inc::MenuHandler_Menu_StickerSet
+L 12/21/2020 - 19:00:46: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:51: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:00:56: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:01: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:06: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:11: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:17: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:22: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:27: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 12/21/2020 - 19:01:27: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 19:01:27: [SM] Call stack trace:
+L 12/21/2020 - 19:01:27: [SM]   [0] Database.Query
+L 12/21/2020 - 19:01:27: [SM]   [1] Line 69, quasemago/csgo_weaponstickers/database.inc::UpdateClientData
+L 12/21/2020 - 19:01:27: [SM]   [2] Line 392, quasemago/csgo_weaponstickers/menus.inc::MenuHandler_Menu_StickerSet
+L 12/21/2020 - 19:01:32: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:34: [SM] Exception reported: Native is not bound
+L 12/21/2020 - 19:01:34: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 19:01:34: [SM] Call stack trace:
+L 12/21/2020 - 19:01:34: [SM]   [0] MemoryBlock.MemoryBlock
+L 12/21/2020 - 19:01:34: [SM]   [1] Line 164, quasemago/csgo_weaponstickers/helpers.inc::SetAttributeValue
+L 12/21/2020 - 19:01:34: [SM]   [2] Line 270, csgo_weaponstickers.sp::SetWeaponSticker
+L 12/21/2020 - 19:01:34: [SM]   [3] Line 228, csgo_weaponstickers.sp::OnGiveNamedItemPost
+L 12/21/2020 - 19:01:37: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:42: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:47: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
+L 12/21/2020 - 19:01:56: Error log file session closed.
