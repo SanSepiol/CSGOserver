@@ -1,0 +1,15 @@
+L 12/21/2020 - 17:27:55: SourceMod error session started
+L 12/21/2020 - 17:27:55: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 17:27:55: [SM] Exception reported: Cannot set m_iItemIDLow with "FollowCSGOServerGuidelines" option enabled.
+L 12/21/2020 - 17:27:55: [SM] Blaming: gloves.smx
+L 12/21/2020 - 17:27:55: [SM] Call stack trace:
+L 12/21/2020 - 17:27:55: [SM]   [0] SetEntProp
+L 12/21/2020 - 17:27:55: [SM]   [1] Line 152, tmp/addons/sourcemod/scripting/gloves.sp::GivePlayerGloves
+L 12/21/2020 - 17:27:55: [SM]   [2] Line 57, tmp/addons/sourcemod/scripting/gloves/menus.sp::GloveMenuHandler
+L 12/21/2020 - 17:30:26: Error log file session closed.
+L 12/21/2020 - 17:49:54: SourceMod error session started
+L 12/21/2020 - 17:49:54: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 17:49:54: [SM] Unable to load extension "PTaH.ext": The specified module could not be found.
+
+L 12/21/2020 - 17:49:54: [SM] Unable to load plugin "weapons.smx": Required extension "PTaH" file("PTaH.ext") not running
+L 12/21/2020 - 17:50:09: Error log file session closed.
