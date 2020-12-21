@@ -1,0 +1,12 @@
+bin/
+steamapps/
+*.vpk
+
+csgo/bin/
+csgo/expressions
+csgo/maps
+csgo/materials
+csgo/models
+csgo/panorama
+csgo/resource
+csgo/scenes
