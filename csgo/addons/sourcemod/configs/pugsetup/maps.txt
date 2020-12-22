@@ -1,7 +1,9 @@
-de_cache
-de_dust2
-de_inferno
 de_mirage
-de_nuke
+de_inferno
 de_overpass
+de_vertigo
+de_nuke
 de_train
+de_dust2
+de_cache
+de_cbble_energy
