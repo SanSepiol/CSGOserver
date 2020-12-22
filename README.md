@@ -19,11 +19,11 @@
 * __Weapon Stickers v1.0.13__, Located And Documented in this [thread](https://forums.alliedmods.net/showthread.php?t=327078)
 
 
-## CVar's and in-game Commands
+# CVar's and in-game Commands
 
-#### Fortnite Emotes
+## *Fortnite Emotes
 > You can modify the CVars below in cfg/sourcemod/fortnite_emotes_extended.cfg file
-##### ConVars
+### ConVars
 ```
 // admin flag for !emotes command (empty for all players)
 // -
@@ -68,16 +68,16 @@ sm_emotes_sounds "1"
 // Maximum: "1.000000"
 sm_emotes_teleportonend "1"
 ```
-##### Commands
+### Commands
 ```
 //Commands:
 //sm_emotes - user command for main menu.
 //sm_setemotes <#userid|name> <emote ID> , (emote ID from 1 to 84) - ADMIN COMMAND.
 ```
 
-#### Gloves
+## *Gloves
 > You can modify the CVars below in cfg/sourcemod/gloves.cfg file
-##### ConVars
+### ConVars
 ´´´
 sm_gloves_db_connection - Database connection name in databases.cfg to use
 Default: "storage-local"
@@ -97,14 +97,14 @@ Default: "0.2"
 sm_gloves_enable_world_model - Enable/Disable gloves to be seen by other living players
 Default: "1"
 ´´´
-##### Commands
+### Commands
 ```
 
 ```
 
-#### Weapons & Knives
+## *Weapons & Knives
 >You can modify the CVars below in cfg/sourcemod/weapons.cfg file
-##### ConVars
+### ConVars
 ```
 sm_weapons_db_connection - Database connection name in databases.cfg to use
 Default: "storage-local"
@@ -142,15 +142,15 @@ Default: "0"
 sm_weapons_inactive_days - Number of days before a player (SteamID) is marked as inactive and his data is deleted. (0 or any negative value to disable deleting)
 Default: "30"
 ```
-##### Commands
+### Commands
 ```
 
 ```
 
 
-#### RankMe Kento Edition
+## *RankMe Kento Edition
 >You can modify the CVars below in csgo\cfg\sourcemod\kento.rankme.cfg
-##### ConVars
+### ConVars
 ```
 rankme_enabled    "1"    //Is RankMe enabled? 1 = true 0 = false"
 rankme_rankbots    "0"    //Rank bots? 1 = true 0 = false"
@@ -232,7 +232,7 @@ rankme_points_assiist_flash  "1"  // How many points a player gets for assist fl
 rankme_points_lose_atf  "1"  // How many points a lose for team assist flash kill?
 rankme_points_wall  "1"  // How many additional points a player got for wallbang? 
 ```
-##### Commands
+### Commands
 ```
 //Admin Commands
 sm_resetrank //RankMe: Resets the rank of a player
@@ -272,9 +272,9 @@ sm_topthrusmoke // RankMe: Shows the TOP ordered by killing through smokes
 sm_topwall // RankMe: Shows the TOP ordered by wallbangs 
 ```
 
-#### MatchMaking Ranks By Points
+## *MatchMaking Ranks By Points
 > You can modify the CVars below in cfg\sourcemod\ranks_matchmaking.cfg
-##### ConVars
+### ConVars
 ```
 ranks_matchmaking_typeofrank (Default: 0) - Type of Rank that you want to use for this plugin (0 for Kento Rankme, 1 for GameMe, 2 for ZR Rank, 3 for HLStatsX)
 ranks_matchmaking_prefix (Default: "[{purple}Fake Ranks{default}]") - Chat Prefix
@@ -303,14 +303,14 @@ ranks_matchmaking_soundrankup (Default: "levels_ranks/levelup.mp3") -> Path to t
 ranks_matchmaking_soundrankdown (Default: "levels_ranks/leveldown.mp3") -> Path to the sound which will play on Derank (needs ranks_matchmaking_soundenable set to 1);
 ```
 
-##### Commands
+### Commands
 ```
 sm_mm - It opens the Ranks Menu, with the option to check the rank points;
 ```
 
-#### Move Commands
+## *Move Commands
 >
-##### ConVars
+### ConVars
 ```
 movecommands_enable_adminmenu Enable / Disable MoveCommands in Adminmenu (Default: 1)
 movecommands_enable_afk Enable / Disable AFK Command (Default: 1)
@@ -338,7 +338,7 @@ TeamBalancer
 movecommands_enable_teamabalancer Enable / Disable TeamBalancer
 ```
 
-##### Commands
+### Commands
 ```
 sm_spec <Name/#UserID>
 sm_swap <Name/#UserID>
@@ -352,9 +352,9 @@ sm_swapallt
 sm_swapallspec
 ```
 
-#### Pug Setup
+## *Pug Setup
 > You can modify the CVars below in cfg\sourcemod\pugsetup\*.cfg
-##### ConVars
+### ConVars
 ```
 sm_pugsetup_admin_flag (default "b") - Admin flag to mark players as having elevated permissions
 sm_pugsetup_announce_countdown_timer (default 1) - Whether to announce how long the countdown has left before the lo3 begins
@@ -384,7 +384,7 @@ sm_pugsetup_time_format (default "%Y-%m-%d_%H%M") - Time format to use when crea
 sm_pugsetup_warmup_cfg (default "sourcemod/pugsetup/warmup.cfg") - Config file to run before/after games; should be in the csgo/cfg directory.
 ```
 
-##### Commands
+### Commands
 ```
 .setup, begins the setup phase and sets the pug leader
 .10man, an alias of setup with 5v5, captains, and a mapvote
@@ -416,14 +416,14 @@ sm_setdefault to set a default setup menu setting
 sm_setdisplay <0|1> to set whether a setup setting is displayed in the setup menu
 ```
 
-#### Advertisements
+## *Advertisements
 >
-##### ConVars
+### ConVars
 ```
 
 ```
 
-##### Commands
+### Commands
 ```
 sm_advertisements_enabled (0/1, def 1)
 Enable/disable displaying advertisements.
@@ -441,9 +441,9 @@ sm_advertisements_reload
 Server command to reload the advertisements.
 ```
 
-#### Stickers
+## *Stickers
 >You can modify the ConVars below in cfg/sourcemod/csgo_weaponstickers.cfg
-##### ConVars
+### ConVars
 ```
 sm_weaponstickers_flag - Specifies the required flag.
 E.g: 'a' for reserved slot.
@@ -458,7 +458,7 @@ P.s: This is necessary so that the player does not need to switch weapons to upd
 
 ```
 
-#### Commands
+### Commands
 ```
 
 ```
