@@ -84,3 +84,20 @@ L 12/21/2020 - 19:01:37: [csgo_weaponstickers.smx] (WeaponStickers) Connection t
 L 12/21/2020 - 19:01:42: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
 L 12/21/2020 - 19:01:47: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: Could not find database config "csgo_weaponstickers"
 L 12/21/2020 - 19:01:56: Error log file session closed.
+L 12/21/2020 - 20:04:08: SourceMod error session started
+L 12/21/2020 - 20:04:08: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 20:04:08: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)
+L 12/21/2020 - 20:04:10: Error log file session closed.
+L 12/21/2020 - 20:04:37: SourceMod error session started
+L 12/21/2020 - 20:04:37: Info (map "de_dust2") (file "D:\repo\steamcmd\csgo-ds\csgo\addons\sourcemod\logs\errors_20201221.log")
+L 12/21/2020 - 20:04:37: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)
+L 12/21/2020 - 20:05:04: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)
+L 12/21/2020 - 20:05:30: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)
+L 12/21/2020 - 20:05:56: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)
+L 12/21/2020 - 20:06:05: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 12/21/2020 - 20:06:05: [SM] Blaming: csgo_weaponstickers.smx
+L 12/21/2020 - 20:06:05: [SM] Call stack trace:
+L 12/21/2020 - 20:06:05: [SM]   [0] Database.Query
+L 12/21/2020 - 20:06:05: [SM]   [1] Line 69, quasemago/csgo_weaponstickers/database.inc::UpdateClientData
+L 12/21/2020 - 20:06:05: [SM]   [2] Line 392, quasemago/csgo_weaponstickers/menus.inc::MenuHandler_Menu_StickerSet
+L 12/21/2020 - 20:06:22: [csgo_weaponstickers.smx] (WeaponStickers) Connection to database failed: [2003]: Can't connect to MySQL server on '149.56.232.22' (10060)

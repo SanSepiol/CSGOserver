@@ -10,3 +10,7 @@ csgo/models
 csgo/panorama
 csgo/resource
 csgo/scenes
+
+#This items are used to make Stickers plugin Work. They are necessary only for windows servers
+csgo/addons/sourcemod/scripting/include/sourcescramble.inc
+csgo/addons/sourcemod/extensions/sourcescramble.ext.dll
