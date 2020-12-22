@@ -21,7 +21,7 @@
 
 # CVar's and in-game Commands
 
-## * Fortnite Emotes
+* ## Fortnite Emotes
 > You can modify the CVars below in cfg/sourcemod/fortnite_emotes_extended.cfg file
 ### ConVars
 ```
@@ -75,7 +75,7 @@ sm_emotes_teleportonend "1"
 //sm_setemotes <#userid|name> <emote ID> , (emote ID from 1 to 84) - ADMIN COMMAND.
 ```
 
-## * Gloves
+* ## Gloves
 > You can modify the CVars below in cfg/sourcemod/gloves.cfg file
 ### ConVars
 ´´´
@@ -102,7 +102,7 @@ Default: "1"
 
 ```
 
-## * Weapons & Knives
+* ## Weapons & Knives
 >You can modify the CVars below in cfg/sourcemod/weapons.cfg file
 ### ConVars
 ```
@@ -148,7 +148,7 @@ Default: "30"
 ```
 
 
-* ##  RankMe Kento Edition
+* ## RankMe Kento Edition
 >You can modify the CVars below in csgo\cfg\sourcemod\kento.rankme.cfg
 ### ConVars
 ```
@@ -272,7 +272,7 @@ sm_topthrusmoke // RankMe: Shows the TOP ordered by killing through smokes
 sm_topwall // RankMe: Shows the TOP ordered by wallbangs 
 ```
 
-## * MatchMaking Ranks By Points
+* ## MatchMaking Ranks By Points
 > You can modify the CVars below in cfg\sourcemod\ranks_matchmaking.cfg
 ### ConVars
 ```
@@ -308,7 +308,7 @@ ranks_matchmaking_soundrankdown (Default: "levels_ranks/leveldown.mp3") -> Path 
 sm_mm - It opens the Ranks Menu, with the option to check the rank points;
 ```
 
-## * Move Commands
+* ## Move Commands
 >
 ### ConVars
 ```
@@ -352,7 +352,7 @@ sm_swapallt
 sm_swapallspec
 ```
 
-## * Pug Setup
+* ## Pug Setup
 > You can modify the CVars below in cfg\sourcemod\pugsetup\*.cfg
 ### ConVars
 ```
@@ -416,7 +416,7 @@ sm_setdefault to set a default setup menu setting
 sm_setdisplay <0|1> to set whether a setup setting is displayed in the setup menu
 ```
 
-## * Advertisements
+* ## Advertisements
 >
 ### ConVars
 ```
@@ -441,7 +441,7 @@ sm_advertisements_reload
 Server command to reload the advertisements.
 ```
 
-## * Stickers
+* ## Stickers
 >You can modify the ConVars below in cfg/sourcemod/csgo_weaponstickers.cfg
 ### ConVars
 ```
