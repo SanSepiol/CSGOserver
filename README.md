@@ -148,7 +148,7 @@ Default: "30"
 ```
 
 
-## * RankMe Kento Edition
+* ##  RankMe Kento Edition
 >You can modify the CVars below in csgo\cfg\sourcemod\kento.rankme.cfg
 ### ConVars
 ```
